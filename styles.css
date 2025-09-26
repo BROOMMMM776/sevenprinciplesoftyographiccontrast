@@ -1,0 +1,90 @@
+body {
+    background-color: #fffab7;
+    font-family: "Special Elite", system-ui;
+}
+
+main {
+    color: #420075;
+
+    max-width: 700px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color: #fffab7;
+
+    background-color: #420075;
+    padding: 8px 16px 8px 16px;
+    margin: 8px 16px 8px 16px;
+    
+    border-radius: 25px;
+    border: 10px solid;
+    border-color: #a600ff;
+    
+    
+    font-size: 50px;
+    text-align: center;
+    line-height: 55px;
+    letter-spacing: 3px;
+}
+
+em {
+    text-align: center;
+}
+
+h2 {
+    letter-spacing: 2px;
+}
+
+.style {
+    color: rgb(15, 187, 187);
+    font-style: italic;
+}
+
+.fancy {
+    font-style: italic;
+    color: rgb(38, 163, 22);
+    font-family: "Rubik Pixels", system-ui;
+    
+    transition: all 1s;
+}
+
+.fancy:hover {
+    background-color: azure;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 50%;
+    padding: 0px 15px 0px 15px;
+}
+
+.navbar {
+    padding: 30px;
+    background-color: rgba(201, 255, 255, 0.68);
+    text-align: center;
+    -webkit-text-fill-color: black;
+    line-height: 20px;
+    padding: 20px;
+    
+}
+
+.mainpage {
+    border: 0px solid;
+}
+
+.link {
+    color: rgb(57, 125, 253);
+    text-decoration: 0;
+    border: 2px solid;
+}
+
+a:hover {
+    color: black;
+}
+
+.navbar:hover {
+    -webkit-text-fill-color: rgb(255, 0, 0);
+    text-decoration: underline;
+    
+}
